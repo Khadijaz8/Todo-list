@@ -1,0 +1,42 @@
+body {
+    animation: colorShift 7s infinite;
+}
+.whole{
+    border: 2px solid white; 
+    border-radius: 5%;
+    padding: 8%;
+    margin:5px;
+    width:300px;
+    max-width: 90%;
+    height: auto;
+    overflow-wrap: break-word;
+
+}
+.list{
+  justify-content: center;
+  align-items: center;
+}
+.delete{
+  cursor:pointer;
+}
+.delete:hover{
+  transform: scale(1.2);
+}
+
+@keyframes colorShift {
+    0% {
+      background-color: #FFAB76; 
+    }
+    25% {
+      background-color: rgb(207, 13, 207); 
+    }
+    50% {
+      background-color: #FF85E0;
+    }
+    75% {
+      background-color: #ffa56c; 
+    }
+    100% {
+      background-color: pink; 
+    }
+  }
